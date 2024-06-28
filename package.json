@@ -1,5 +1,5 @@
 {
-  "name": "pkg-test-2",
+  "name": "@zones-de-genie/pkg-test-2",
   "version": "0.0.1",
   "type": "module",
   "main": "dist/cjs/index.js",
