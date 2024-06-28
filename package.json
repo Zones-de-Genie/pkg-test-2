@@ -1,6 +1,6 @@
 {
   "name": "@zones-de-genie/pkg-test-2",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/pkg-test-2.esm.js",
