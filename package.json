@@ -9,7 +9,8 @@
   ],
   "types": "dist.index.d.ts",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "test": "exit 0"
   },
   "keywords": [],
   "author": "Gwen",
