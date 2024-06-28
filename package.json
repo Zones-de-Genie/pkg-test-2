@@ -1,12 +1,18 @@
 {
   "name": "@zones-de-genie/pkg-test-2",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "type": "module",
   "main": "dist/index.js",
-  "module": "dist/@zones-de-genie/pkg-test-2.esm.js",
+  "module": "dist/pkg-test-2.esm.js",
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/pkg-test-2.es.js",
+      "require": "./dist/pkg-test-2.cjs.js"
+    }
+  },
   "types": "dist./types/types.d.ts",
   "scripts": {
     "rollup": "rollup -c",
